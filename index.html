@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Dog Shop</title>
+</head>
+
+<body>
+
+  <header class="container-fluid bg-success d-flex justify-content-center">
+    <p class="text-light mb-0 p-2 fs-6">¡Bienvenidos!</p>
+    <p class="text-light mb-0 p-2 fs-6">Contáctanos al 88972456</p>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="Menú">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span class="text-primary fs-5 fw-bold">Dog Shop</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#Tienda">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#seccion-contacto">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="email" placeholder="Correo Electrónico" aria-label="email">
+          <button class="btn btn-outline-success" type="button">Suscribete</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExsampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="./img/slider1.jpg" class="d-block w-100" alt="slide1">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./img/slider2.jpg" class="d-block w-100" alt="slide2">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./img/s3.jpg" class="d-block w-100" alt="slide2">
+      </div>
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <section class="w-50 mx-auto text-center pt-5" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">Una tienda de perros exclusiva para tus necesidades de<span
+        class="text-success"> Mascotas </span></h1>
+    <p class="p-3 fs-4"><span class="text-success">Dog Shop.</span> Es una tienda única donde te ayudamos a escoger a
+      tus mascotas de una manera rapida y sencilla y también a su cuidado y alimentación de la mejor manera!</p>
+  </section>
+
+  <section class="container-fluid">
+    <div class="row w-75 mx-auto my-5 servicio-fila">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+        <img src="./img/comida-perro2.jpg" alt="Alimento" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1"><b>Alimentos</b></h3>
+          <p class="px-4">Alimento exclusivo para mascotas(Dog).</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex   my-5 icono-wrap">
+        <img src="./img/accesorios.jpg" alt="Alimento" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1"><b>Accesorios</b></h3>
+          <p class="px-4">Lo mejor en accesorios para tus cachorros.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row w-75 mx-auto my-5 servicio-fila">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+        <img src="./img/images.jpg" alt="Alimento" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1"><b>Peluquería</b></h3>
+          <p class="px-4">Todo tipo de peluquería para tu mascota lo mejor en servicios.</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex   my-5 icono-wrap">
+        <img src="./img/razas.jpg" alt="Alimento" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1"><b>Razas</b></h3>
+          <p class="px-4">Contamos con las mejores razas de perritos y los mejores precios.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="w-50 m-auto text-center" id="Tienda">
+      <h1 class="mb-5 fs-2"><b>La mejor tienda<span class="text-success"> de perros a nivel nacional</b></span></h1>
+      <p class="fs-4">Siempre buscamos lo mejor para nuestros clientes y estamos en constante disponibilidad para lo que
+        deseen y dandoles la mejor atención y precios en nuestros servicios.
+        Visitanos pronto!
+      </p>
+    </div>
+    <div class="mt-5 text-center">
+      <img class="img-fluid" src="./img/tienda.jpg" alt="Tienda">
+    </div>
+  </section>
+  <section class="w-50 mx-auto text-center pt-5" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3"><b>Ubicados en Plaza Miraflores</b><span class="text-success"></span></h1>
+    <p class="p-3 fs-4"><span class="text-success">Dog Shop.</span> Visitanos en nuestra tienda encontraras lo mejor!
+      ubicados en centro comercial plaza miraflores local 302 a la par de banco de occidente. ¡Te esperamos!.</p>
+  
+  </section>
+  </section>
+  <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+    <div id="bg-contactos">
+     
+    </div>
+
+    </div>
+    <div class="container"
+    id="contenedor formulario">
+      <div class="titulo-formulario" 
+      class="text-center mb-4">
+       
+        <h2 class=" text-light text-center"><b>Contáctanos</b></h2>
+        <p class=" text-light text-center">Estamos aquí para servirte</p>
+      </div>
+      <form action=""></form>
+      <div class="mb-3">
+        <input type="Correo"
+        class="form-control" id="email"
+        placeholder="Correo"
+        required>
+      </div>
+      <div class="mb-3">
+        <input type="text"
+        class="form-control"
+        id="nombre"
+        placeholder="Nombre"
+        required>
+      </div>
+      <div class="mb-3">
+        <input type="Tel"
+        class="form-control"
+        id="Tel"
+        placeholder="Teléfono"
+        required>
+      </div>  
+      <div class="mb-3">
+        <textarea class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="3" placeholder="Escribe tu mensaje"></textarea>
+      </div>
+      <div class="mb-3">
+        <button type="button"class="btn btn-primary w-100 fs-5">Enviar Mensaje</buttom>
+  
+      </div>
+    </form>
+    </div>
+  </section>
+
+  <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+    <p class="fs-5 px-3  pt-3">Dog Shop &copy; 2023 MAMZ</p>
+    <div id="iconos" >
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>  
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

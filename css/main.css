@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+#Menú li > a{
+     font-size: 18px;
+     font-weight: bold;
+     color: #3f3f3f;
+}
+#Menú form > button{
+    font-size: 18px;
+    font-weight: bold;
+}
+.carousel-inner{
+    max-height: 41rem;
+}
+#bg-contacto{
+    position: relative;
+    top: -50px;
+}
+#bg-contactos{
+    position:relative;
+    top: -100px;
+} 
+
+ #seccion-contacto{
+    background-color: #1b4e1b;
+    min-height:500px;
+    position:relative;
+}
+#contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+    
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+footer {
+    background: #0a0b0e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+
+#contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario{
+    color:#3f3f3f;
+}
+
+@media (max-width:768px){
+    #intro, #Tienda{
+        width:90% !important;
+    }
+
+    #Tienda p{
+        display:none;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+#bg-contactos{
+    position:relative;
+    top: -100px;
+} 
+
+ #seccion-contacto{
+    background-color: #121a5e;
+    min-height:200px;
+    position:relative;
+ }
+
+ #contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-30%, -30%);
+    background: #fbfafa;
+    border-radius:5px;
+    
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
